@@ -16,8 +16,82 @@ h4,
 h5,
 h6 {
   margin: 0;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+  padding: 0px;
+  size: 0.5em;
 }
 
 p {
   margin: 0;
 }
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  background-color: rgb(49, 52, 61);
+  color: rgb(146, 204, 205);
+  padding: 5px 20px 5px 0px;
+}
+
+nav a{
+  color: rgb(146, 204, 205);
+  padding-right: 5px;
+}
+
+#myname {
+  background-color: rgb(146, 204, 205);
+  color: rgb(49, 52, 61);
+  padding: 0px 10px 0px 50px;
+}
+
+.hero-banner {
+  height: 150px;
+  background-color: rgb(30, 63, 98);
+  background-size: cover;
+  background-image: url(../images/02-hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: luminosity;
+}
+
+#hero-text {
+  width: fit-content;
+  padding: 0px 10px;
+  background-color: rgb(146, 204, 205);
+  color: rgb(49, 52, 61);
+  text-align: center;
+  position: relative;
+  top: 60%;
+  left: 60%;
+}
+
+.page-wrapper {
+  width: 70%;
+  color: rgb(30, 63, 98);
+}
+
+.page-section {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.page-section h2 {
+  font-size: 3em;
+  border-right: 2px solid;
+  padding: 20px;
+}
+
+.page-section p {
+  width: 400px;
+  padding: 20px;
+}
+
+
