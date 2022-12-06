@@ -53,7 +53,7 @@ header {
   object-position: 50% 25%;
   overflow: hidden;
   position: relative;
-  right: 400px;
+  left: 300px;
 }
 
 nav a{
