@@ -15,6 +15,7 @@ h3,
 h4,
 h5,
 h6 {
+  color: rgb(30, 63, 98);
   margin: 0;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -26,16 +27,33 @@ h1 {
 
 p {
   margin: 0;
+  color: rgb(30, 63, 98);
 }
 
 header {
   width: 100%;
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   align-items: center;
   background-color: rgb(49, 52, 61);
   color: rgb(146, 204, 205);
   padding: 5px 20px 5px 0px;
+  
+  
+}
+
+#my-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border-color: rgb(146, 204, 205);
+  border-width: 4px;
+  border-style: solid;
+  object-fit: contain;
+  object-position: 50% 25%;
+  overflow: hidden;
+  position: relative;
+  right: 400px;
 }
 
 nav a{
@@ -70,28 +88,161 @@ nav a{
   left: 60%;
 }
 
-.page-wrapper {
-  width: 70%;
-  color: rgb(30, 63, 98);
+.page-wrapper{
+  width: 1024px;
+  text-align: center;
+  padding: 20px;
 }
 
 .page-section {
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
   align-items: center;
-  flex-wrap: wrap;
   padding: 20px;
 }
 
 .page-section h2 {
-  font-size: 3em;
-  border-right: 2px solid;
-  padding: 20px;
+  margin-left: 5em;
+  padding: 10px;
 }
 
-.page-section p {
-  width: 400px;
-  padding: 20px;
+#about-text {
+  border-left: 4px;
+  border-left-style: solid;
+  border-left-color: rgb(30, 63, 98);
+  margin-left: 15px;
+  padding-left: 15px;
 }
+
+.section-tittle {
+  width: 200px;
+  padding: 10px;
+  margin: 20px;
+}
+
+#featured {
+  width: 610px;
+  height: 450px;
+  background-color: grey;
+  background-image: url(/images/02-portfolio-4.jpg);
+  background-position: center;
+  background-blend-mode: luminosity;
+}
+
+#featured:hover {
+  background-color: royalblue;
+}
+
+
+#portfolio-gallery {
+  width: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  border-left: 4px;
+  border-left-style: solid;
+  border-left-color: rgb(30, 63, 98);
+  margin-left: 15px;
+  padding-left: 15px;
+}
+
+#project1 {
+  width: 300px;
+  height: 225px;
+  background-color: grey;
+  background-image: url(/images/02-portfolio-1.jpg);
+  background-position: center;
+  background-blend-mode: luminosity;
+}
+
+#project1:hover {
+  background-color: royalblue;
+}
+
+#project2 {
+  width: 300px;
+  height: 225px;
+  background-color: grey;
+  background-image: url(/images/02-portfolio-2.jpg);
+  background-position: center;
+  background-blend-mode: luminosity;
+}
+
+#project2:hover {
+  background-color: royalblue;
+}
+
+#project3 {
+  width: 300px;
+  height: 225px;
+  background-color: grey;
+  background-image: url(/images/02-portfolio-3.jpg);
+  background-position: center;
+  background-blend-mode: luminosity;
+}
+
+#project3:hover {
+  background-color: royalblue;
+}
+
+#project4 {
+  width: 300px;
+  height: 225px;
+  background-color: grey;
+  background-image: url(/images/02-portfolio-4.jpg);
+  background-position: center;
+  background-blend-mode: luminosity;
+}
+
+#project4:hover {
+  background-color: royalblue;
+}
+
+#portfolio-gallery div {
+  border: rgb(146, 204, 205);
+  border-width: 5px;
+  border-style: solid;
+  margin: 5px;
+}
+
+#portfolio-gallery h3 {
+  width: fit-content;
+  padding: 0px 30px;
+  background-color: rgb(146, 204, 205);
+  color: rgb(49, 52, 61);
+  text-align: center;
+  position: relative;
+  top: 60%;
+  left: 0%;
+}
+
+#portfolio-gallery a {
+  text-decoration: none;
+  font-variant: small-caps;
+}
+
+
+#contact-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4em;
+  border-left: 4px;
+  border-left-style: solid;
+  border-left-color: rgb(30, 63, 98);
+  margin-left: 15px;
+  padding-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
